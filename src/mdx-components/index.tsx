@@ -17,6 +17,7 @@ import {
 import NextLink from 'next/link';
 
 import CodeBlock from './code-block';
+import Image from './image';
 
 const Pre = (props) => <chakra.div my="2em" borderRadius="sm" {...props} />
 
@@ -73,6 +74,7 @@ const MDXComponents = {
   ul: (props) => <UnorderedList apply="mdx.ul" {...props} />,
   ol: (props) => <OrderedList apply="mdx.ul" {...props} />,
   li: (props) => <ListItem pb="4px" {...props} />,
+  img: Image,
   blockquote: (props) => (
     <Alert
       mt="4"
