@@ -16,6 +16,15 @@ The `MDXProvider` is used in `pages/_app.tsx` inside of the `ChakraProvider`. Th
 
 Next JS has an official MDX package called `@next/mdx` which we're using in this example. That package allows Next JS to render `.mdx` files as pages. You can see its usage in `next.config.js`.
 
+## Take it for a spin
+If you'd like to run this example locally, you can do:
+```
+npx degit chakra-ui/examples/examples/mdx chakra-ui-mdx
+cd chakra-ui-mdx
+yarn install
+yarn dev
+```
+
 ## Components Configuration
 
 You can find the MDX components configuration in `src/mdx-components/index.tsx`. If you'd like to change the colors, edit the spacing, add new components, fine-tune the built-in ones, that's the place you should be looking at.
